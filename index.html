@@ -61,6 +61,12 @@
                 </nav>
             </div>
             <div id="content" class="col-fluid">
+                <div class="mobile-nav accentbgcolor rounded-pill">
+                    <p class="white-text nav-title">Curriculum Vitae</p>
+                    <button class="navbar-toggler accentbgcolordarker" type="button" data-toggle="modal" data-target="#sidebarModal">
+                        <i class="nav-button white-text mdi mdi-menu"></i>
+                    </button>
+                </div>
                 <p class="title">CHI SONO</p>
                 <p class="subtitle">Informazioni personali</p>
                 <p class="paragraph">
@@ -108,6 +114,60 @@
                 </p>
                 <div class="dropdown-divider"></div>
                 <p>firma</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal left fade menu" id="sidebarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog accentbgcolor position-fixed m-auto" role="document">
+            <div class="modal-content h-100">
+                <div class="modal-body p-3">
+                    <div class="nav flex-column">
+                        <div class="mobile-nav-container shadow accentbgcolordarker">
+                            <div class="stretch">
+                                <i class="mdi mdi-account sidebar-icon"></i>
+                                <p class="title-mobile align-middle">Chi sono:</p>
+                            </div>
+                            <p class="subtitle mobile">Davide Antonio Amodio</p>
+                            <p class="paragraph mobile">Programmatore</p>
+                        </div>
+                        <div class="mobile-nav-container shadow accentbgcolordarker">
+                            <div class="stretch">
+                                <i class="mdi mdi-chart-areaspline sidebar-icon side"></i>
+                                <p class="title-mobile align-middle">Skills:</p>
+                            </div>
+                                <div class="">
+                                    <p class="paragraph mobile skill-mobile">Web developing</p>
+                                    <div class="padding-bar progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                                    </div>
+                                    <p class="paragraph mobile skill-mobile">Microcontrollori</p>
+                                    <div class="padding-bar progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                    </div>
+                                    <p class="paragraph mobile skill-mobile">Sistemistica</p>
+                                    <div class="padding-bar progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                    </div>
+                                    <p class="paragraph mobile skill-mobile">Problem solving</p>
+                                    <div class="padding-bar progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="mobile-nav-container shadow accentbgcolordarker">
+                            <div class="stretch">
+                                <i class="mdi mdi-phone sidebar-icon"></i>
+                                <p class="title-mobile align-middle">Contatti:</p>
+                            </div>
+                            <p class="subtitle mobile">+39 3895624818</p>
+                            <p class="paragraph mobile">wapeety@protonmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="closebtn" class="btn" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>

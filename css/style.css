@@ -160,6 +160,122 @@ i.sidebar-icon{
     }
 }
 
+.modal.left .modal-dialog {
+	width: 320px;
+	height: 100%;
+	-webkit-transform: translate3d(0%, 0, 0);
+	-ms-transform: translate3d(0%, 0, 0);
+	-o-transform: translate3d(0%, 0, 0);
+	transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content {
+	overflow-y: auto;
+}
+
+.modal.left.fade .modal-dialog {
+	left: -320px;
+	-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+	-moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+	-o-transition: opacity 0.3s linear, left 0.3s ease-out;
+	transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.show .modal-dialog {
+	left: 0;
+}
+
+.modal-content {
+	border-radius: 0;
+	border: none;
+}
+
+.modal-header {
+	border-bottom-color: #7386D5;
+	background-color: #7386D5;
+}
+
+.modal-body{
+    background-color: #7386D5;
+    overflow-y: scroll;
+}
+
+.modal-footer{
+    background-color: #6171b6;
+}
+
+.mobile-nav{
+    display: none;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.nav-button{
+    margin-left: inherit;
+}
+
+.white-text{
+    color: white;
+}
+
+.nav-title{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.active{
+    color: white;
+}
+
+#closebtn{
+    background-color: #7386D5;
+    color: white;
+}
+
+.stretch{
+    display: flex;
+    align-items: stretch;
+    color: white;
+}
+
+.mobile-nav-container{
+    border-radius: 30px;
+    margin-bottom: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.title-mobile{
+    font-size: 2.0rem;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.subtitle.mobile{
+    margin-left: 40px;
+    color: white;
+}
+
+.paragraph.mobile{
+    margin-left: 40px;
+    color: white;
+}
+
+.padding-bar{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.skill-mobile{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 770px){
     html, body{
         padding-top: 0px;
@@ -191,5 +307,8 @@ i.sidebar-icon{
 
     #sidebar{
         display: none;
+    }
+    .mobile-nav{
+        display: flex;
     }
 }
