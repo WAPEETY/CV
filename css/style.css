@@ -148,15 +148,31 @@ i.sidebar-icon{
     margin: 0;
 }
 @media print {
-    .page {
+    .main-container{
         margin: 0;
-        border: initial;
-        border-radius: initial;
-        width: initial;
-        min-height: initial;
-        box-shadow: initial;
-        background: initial;
         page-break-after: always;
+        box-shadow: none;
+        outline: 0 !important;
+        outline-offset: 0  !important;
+        background-image: none  !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none  !important;
+        width: 100%;
+    }
+    html, body{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        /*background-color: #5f3a21;*/
+        width: 100%;
+    }
+    
+    #content{
+        width: 100%;
+    }
+
+    .wrapper{
+        width: 100%;
     }
 }
 

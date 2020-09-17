@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.6.95/css/materialdesignicons.min.css">
 </head>
 <body>
-    <div id="" class="main-container container-sm shadow p-3 mb-5 bg-white rounded">
+    <div id="" class="shadow p-3 mb-5 bg-white main-container container-sm rounded">
         <div class="wrapper">
             <div id="sidebar" class="side col-fluid accentbgcolor" onclick="toggleSidebar()">
                 <nav>
                     <div class="accentbgcolordarker shadow" id="sidebar-header">
-                        <img id="meimg" class="side img-fluid rounded-circle" src="img/me.jpg" alt="" srcset="">
+                        <img id="meimg" class="side img-fluid rounded-circle" src="img/me.png" alt="" srcset="">
                     </div>
                     <ul class="list-unstyled components">
                         <li>
@@ -60,7 +60,7 @@
                     </ul>
                 </nav>
             </div>
-            <div id="content" class="col-fluid">
+            <div id="content" class="col-fluid d-print-block">
                 <div class="mobile-nav accentbgcolor rounded-pill">
                     <p class="white-text nav-title">Curriculum Vitae</p>
                     <button class="navbar-toggler accentbgcolordarker" type="button" data-toggle="modal" data-target="#sidebarModal">
@@ -113,7 +113,9 @@
                     </ul>
                 </p>
                 <div class="dropdown-divider"></div>
-                <p>firma</p>
+                <div class="sign">
+                    <img class="float-right img-fluid" width="40%" src="img/sign.jpg" alt="Sign">
+                </div>
             </div>
         </div>
     </div>
