@@ -143,6 +143,44 @@ i.sidebar-icon{
     font-size: 1.5rem;
 }
 
+.download-button{
+    display: none;
+}
+
+.mobile-nav-container .download-button{
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #7386D5;
+    font-weight: bold;
+    color: white;
+}
+
+.download-button p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.download-button.open{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #7386D5;
+    font-weight: bold;
+    color: white;
+}
+
+.download-button.open p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar-icon-container.open button{
+    display: block;
+    width: 50%;
+}
 @page {
     size: A4;
     margin: 0;
